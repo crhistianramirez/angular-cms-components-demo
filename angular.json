@@ -25,12 +25,21 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "**/*",
+                "input": "node_modules/tinymce",
+                "output": "/tinymce/"
+              }
             ],
             "styles": [
+              "node_modules/bootstrap/scss/bootstrap.scss",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/tinymce/tinymce.min.js",
+              "node_modules/@ordercloud/angular-cms-components/plugin.min.js"
+            ]
           },
           "configurations": {
             "production": {
