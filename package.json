@@ -23,7 +23,7 @@
     "@ng-bootstrap/ng-bootstrap": "^7.0.0",
     "@ordercloud/angular-cms-components": "^1.0.0-beta.2",
     "@tinymce/tinymce-angular": "^4.0.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bootstrap": "^4.5.0",
     "case": "^1.6.3",
     "jquery": "^3.5.1",
